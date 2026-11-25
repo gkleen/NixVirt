@@ -518,6 +518,7 @@ let
                   (subelem "boot" [ (subattr "order" typeInt) ] [ ])
                   targetelem
                   addresselem
+                  (subelem "link" [ (subattr "state" typeString) ] [ ])
                 ])
               (subelem "smartcard" [ (subattr "mode" typeString) (subattr "type" typeString) ] [ addresselem ])
               (subelem "serial" [ (subattr "type" typeString) ] [ targetelem ])
